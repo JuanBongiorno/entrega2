@@ -865,6 +865,9 @@ nav ul li a:hover{
 .conteiner-sec{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     
 }
 
@@ -914,7 +917,7 @@ nav ul li a:hover{
         justify-content: center;
         background-color: #00000000;
         height: 1.80rem;
-        width: 50rem;
+        width: 100%;
 
     }
     
@@ -1056,6 +1059,11 @@ nav ul li a:hover{
 @media (max-width: 320px){
     .body-myh{
         width: 9.375rem;
+    }
+    .header-nos{
+        justify-content: center;
+        align-items: center;
+        width: 45.625rem;
     }
     .form-uno{
         margin-left: 25.875rem;
