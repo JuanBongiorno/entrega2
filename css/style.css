@@ -785,8 +785,7 @@ nav ul li a:hover{
 /* ---------------------------------- CONTACTO ----------------------------- */
 
 .body-myh{
-    background-color: #e06363;
-
+    background-image: url(../assets/img/jonny-gios-EPjsh21TDWM-unsplash.jpg) ;
 }
 
 .form-uno{
@@ -863,6 +862,20 @@ nav ul li a:hover{
     color: #000000;
 }
 
+.conteiner-sec{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-conteiner{
+    margin-top: 4.25rem;
+}
+
+.imagen-sec{
+    width: 28.75rem;
+    height: 31.875rem;
+}
 /* ------------------------------- MEDIAS ------------------------------------------------------------------------------------------------------------------ */
 
 @media (max-width: 1024px){
@@ -880,31 +893,44 @@ nav ul li a:hover{
     .terminos-footer p{
         font-size: 0.3375rem;
     }
+
+    .conteiner-sec{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
 }
 
 
 @media (max-width: 768px){
     .body-myh{
         height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-left: 11.875rem;
     }
     .header-nos{
         justify-content: center;
-        background-color: #000000;
+        background-color: #00000000;
         height: 1.80rem;
         width: 50rem;
+
     }
     
     .header-nos a{
-        color: aliceblue;
+        color: rgb(0, 0, 0);
         text-decoration: none;
     }
     .asesoramiento-footer p{
         font-size: .2375rem;
+        color: #ffffff;
     }
     .terminos-footer p{
         font-size: 0.3375rem;
         margin-right: 1.25rem;
         align-self: flex-end;
+        color: #fffafa;
     }
     .form-uno{
         margin-left: 1.25rem;
@@ -925,13 +951,40 @@ nav ul li a:hover{
         display: flex;
         align-self: flex-end;
         margin-top: 17rem;
-        background-color: #000000;
+        background-color: #00000000;
         height: 2.5rem;
         width: 50rem
     }
     .boton-myh{
         margin-left: 2.375rem;
     }
+    .conteiner-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-footer{
+        margin-right: 25rem;
+    }
+}
+
+@media (max-width: 600px){
+    
+    .body-myh{
+        margin-left: 5%;
+        width: 720px;
+    }
+
+    .conteiner-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+} 
+.form-dos{
+    width: 100rem;
+}
 }
 
 @media (max-width: 425px){
@@ -973,7 +1026,20 @@ nav ul li a:hover{
     }
 }
 
-@media (min-width: 375px) and (max-width: 320px){
+@media (max-width: 424px){
+    .form-dos{
+        margin-right: 15.625rem;
+        width: 25.625rem;
+    }
+    .boton-myh{
+        margin-right: 15.625rem;
+    }
+    .conteiner-sec{
+        margin-left: 6.25rem;
+    }
+}
+
+@media (max-width: 375px){
     .body-myh{
         height: auto;
         width: 0 auto;
@@ -988,11 +1054,18 @@ nav ul li a:hover{
 }
 
 @media (max-width: 320px){
+    .body-myh{
+        width: 9.375rem;
+    }
     .form-uno{
-        margin-left: 13.875rem;
+        margin-left: 25.875rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .boton-myh{
         margin-left: 25rem ;
+        margin-top: 5.625rem;
     }
     .section-footer{
         margin-top: 16.375rem;
@@ -1000,5 +1073,13 @@ nav ul li a:hover{
         height: 4rem;
         width: 50rem;
         margin-top: 94.5rem;
+    }
+    .form-dos{
+        width: 25.625rem;
+        margin-left: 6.25rem;
+    }
+    .conteiner-sec{
+        margin-left: 24rem;
+        margin-top: 12.625rem;
     }
 }
