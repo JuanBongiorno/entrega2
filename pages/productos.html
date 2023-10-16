@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya&family=Alegreya+Sans+SC:ital,wght@1,700&family=Montserrat:wght@100;200&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Rubik:ital,wght@1,300&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,30 +22,50 @@
 
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="../assets/img/pinterest_board_photo.png" alt="">
+    <header class="justify-content-center">
+        <div class="div-foto">
+            <img src="../assets/img/pinterest_board_photo.png" alt="" class="foto-logo">
         </div>
-        <nav class="nave-comand">
-            <ul class="nave-barra">
-                <li>
-                    <a href="../index.html">inicio</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bg-color">
+            <a class="navbar-brand" href="#">ViverMyH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll bg-color">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="#">productos</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                 </li>
-                <li>
-                    <a href="nosotros.html">nosotros</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Plantas</a></li>
+                    <li><a class="dropdown-item" href="#">Semillas</a></li>
+                    <li><a class="dropdown-item" href="#">Macetas</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="tips.html">tips</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/contacto.html" aria-disabled="true">Contacto</a>
                 </li>
-                <li>
-                    <a href="contacto.html">contacto</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/tips.html" aria-disabled="true" href="#">Tips</a>
                 </li>
-            </ul>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
         </nav>
-    </div>
     </header>
     <main class="grids-2">
         <section class="section-uno">
@@ -70,7 +91,7 @@
             <article class="card-tres">
                 <img src="../assets/img/sustratos para orquideas.png" alt="">
                 <div class="texto-planta">
-                    <p>SUSTRATOS DE ORQUIDEAS</p>
+                    <p>SUSTRATOS</p>
                 </div>
                 <div class="texto-precio">
                     <p>1800$</p>
@@ -231,7 +252,7 @@
             <article class="card-tres">
                 <img src="../assets/img/SEMILLAS HORTALIZAS.png" alt="">
                 <div class="texto-planta">
-                    <p>SEMILLAS HORTALIZAS</p>
+                    <p>HORTALIZAS</p>
                 </div>
                 <div class="texto-precio">
                     <p>2300$</p>
