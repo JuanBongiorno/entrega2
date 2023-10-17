@@ -1,0 +1,227 @@
+.grids{
+    width: 100%;
+    height: 31.25rem;
+    display: grid;
+    row-gap: 4.3125rem; 
+    grid-template-columns: repeat(4 , 1fr, auto-fit, minmax(200px));
+    grid-template-rows: repeat(10, 1fr, auto-fit, minmax(200px));
+    grid-template-areas:
+    ". section-1 section-1 ."
+    "section-2 section-2 section-2 section-2"
+    "section-3 section-3 section-3 section-3"
+    "section-4 section-4 section-4 section-4"
+    "section-5 section-5 section-5 section-5"
+    ". section-6 section-6 ."
+    "section-7 section-7 section-7 section-7"
+    "section-8 section-8 section-8 section-8"
+
+}
+
+.section-1{
+    background-color:map-get($colores, fondo);
+    grid-area: section-1;
+    height: 12.5rem;
+    align-content: center;
+    margin-left: 3.9375rem;
+    margin-top: .3125rem;
+}
+.section-2{
+    background-color: map-get($colores, fondo);
+    grid-area: section-2;
+    height: 18.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5rem;
+    padding-top: 1.25rem;
+
+}
+.section-3{
+    background-color: map-get($colores, fondo);
+    grid-area: section-3;
+    height: 18.75rem;
+    @include index;
+}
+.section-4{
+    background-color: map-get($colores, fondo);
+    grid-area: section-4;
+    height: 18.5rem;
+    @include index;
+}
+.section-5{
+    background-color:map-get($colores, fondo);
+    grid-area: section-5;
+    height: 18.5rem;
+    @include index;
+}
+
+.section-6{
+    background-color:map-get($colores, fondo);
+    grid-area: section-6;
+    height: 10.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-7{
+    grid-area: section-7;
+    background-color:map-get($colores, fondo);
+    height: 18.5rem;
+    display: flex;
+    gap: 1.9125rem;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2.625rem;
+}
+
+.texto-disfruta{
+    font-size: 1.3rem;
+    font-family: 'Young Serif', serif;
+    margin-left: .9375rem;
+}
+
+.texto-preparate{
+    font-size: 2.25rem;
+    font-family: 'Young Serif', serif;
+    margin-left: .9375rem;
+}
+
+.card-1{
+    width: 13.25rem;
+    height: 20.625rem;
+    background-color:map-get($colores, fondo);
+    border: none;
+}
+
+.card-1 img{
+    width: 100%;
+    height: 12.5rem;
+}
+.card-2{
+    @extend .card-1
+}
+
+.card-2 img{
+    width: 100%;
+    height: 12.5rem;
+}
+
+.card-3{
+    @extend .card-2
+}
+
+.card-3 img{
+    width: 100%;
+    height: 12.5rem;
+}
+
+.card-4{
+    @extend .card-3
+}
+
+.card-4 img{
+    width: 100%;
+    height: 12.5rem;
+}
+
+.iconos-redes{
+    display: flex;
+}
+
+.texto-planta{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.texto-precio{
+    text-align: center;
+    font-weight: bold;
+    padding-top: .3125rem;
+}
+
+.boton-compras{
+    margin-left: .9375rem;
+    margin-top: .5375rem;
+    background-color: black;
+    border-radius: .9375rem;
+    margin-right: .6rem;
+}
+
+.boton-compras a{
+    color: azure;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+.card-2{
+    width: 13.25rem;
+    height: 20.625rem;
+    background-color: #f4e7d4;
+    border: none;
+}
+
+.card-2 img{
+    width: 100%;
+    height: 12.5rem;
+    }
+
+
+.class-compras{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.texto-recibi{
+    padding-top: 2.125rem;
+    font-size: 1.025rem;
+}
+
+.texto-contacto{
+    padding-top: 1.3125rem;
+}
+
+.boton-masproductos{
+    margin-left: 15.125rem;
+    margin-top: 3rem;
+    background-color: #f4e7d4;
+    
+}
+
+.boton-masproductos a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #f4e7d4;
+    margin-left: 22rem;
+    background-color: #000000;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2375rem;
+    border-radius: .9375rem;
+}
+
+.div-productos{
+    border-radius: .9375rem;
+    border: none;
+    background-color: #f4e7d4;
+}
+
+.boton-macetas{
+    margin-left: 1.9rem;
+    background-color: black;
+    border-radius: .9375rem;
+    width: 9.375rem;
+
+}
+
+.div-boton{
+    padding-top: .625rem;
+}
+
+.boton-macetas a{ 
+    color: azure;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+

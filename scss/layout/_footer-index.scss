@@ -1,0 +1,64 @@
+.section-8{
+    grid-area: section-8;
+    background-color: #050505;
+    height: 4.5rem;
+    display: flex;
+    padding-top: 3.875rem;
+}
+
+.whats-app{
+    align-self: flex-end;
+}
+
+.whats-app img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.insta-gram{
+    align-self: flex-end;
+}
+
+.insta-gram img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.face-book{
+    align-self: flex-end;
+}
+
+.face-book img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.asesoramiento-1{
+    display: flex;
+    align-self: flex-end;
+    padding-top: 3.8rem;
+}
+
+.asesoramiento-1 p{
+    color: rgb(248, 247, 247);
+    font-size: .5rem;
+    padding-top: 10px;
+    margin-left: 3.125rem;
+    margin-bottom: .625rem;
+}
+
+.terminos-vivero{
+    align-self: flex-end;
+    margin-left: 10.375rem;
+}
+
+.terminos-vivero p{
+    color: rgb(255, 255, 255);
+    font-size: .625rem;
+}

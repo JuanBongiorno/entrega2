@@ -1,0 +1,66 @@
+@media (min-width: 560px) and (max-width: 562px){
+
+    /* -------------------------------- SECTION INICIO */
+    .grids{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 185px;
+        height: 150px;
+    }
+    .section-2{
+        display: none;
+    }
+    .section-3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 1.125rem;
+        margin-top: 10.125rem;
+    }
+    .section-4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 1.125rem;
+        flex-wrap: wrap;
+        margin-top: 20.125rem;
+    }
+    .section-5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 1.125rem;
+        flex-wrap: wrap;
+        margin-top: 20.125rem;
+    }
+    .section-6{
+        margin-top: 13.5rem;
+        margin-left: 1.375rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    .section-8{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 5.375rem;
+        margin-left: 6rem;
+        background-color: #f4e7d4;
+    }
+    .div-productos{
+        width: 48.5rem;
+    }
+}

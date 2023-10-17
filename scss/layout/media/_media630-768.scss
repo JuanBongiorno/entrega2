@@ -1,0 +1,41 @@
+@media (min-width: 630px) and (max-width: 768px){
+
+        .cate-gorias{
+        font-size: 1.5rem;
+        }
+        .nav-productos ul li a{
+            font-size: .9rem;
+        }
+        .section-dos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 15rem;
+            gap: 0.5rem;
+        }
+        .section-tres{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 15rem;
+            gap: 0.5rem;
+            
+        }
+        .section-cuatro{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 22rem;
+        }
+        .section-cinco{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 10rem;
+        }
+        .section-seis{
+            margin-top: 25rem;
+        }
+}

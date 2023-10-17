@@ -1,0 +1,18 @@
+@mixin flex{
+    background-color: #f4e7d4;
+    height: 18.75rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5125rem;
+    padding-top: .625rem;
+}
+
+@mixin index{
+    background-color: #f4e7d4;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5125rem;
+    padding-top: .625rem;
+}

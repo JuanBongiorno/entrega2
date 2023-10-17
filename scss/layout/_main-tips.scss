@@ -1,0 +1,47 @@
+.grid-3{
+    width: 100%;
+    height: 40.875rem;
+    display: grid;
+    row-gap: 0.5rem;
+    padding-top: 5.875rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "section-u section-u section-u section-u"
+    "section-u section-u section-u section-u"
+    "section-d section-d section-d section-d"
+    "section-d section-d section-d section-d"
+    "section-d section-d section-d section-d"
+    "section-t section-t section-t  section-t"
+    "section-t section-t section-t section-t"
+    "section-ct section-ct section-ct section-ct"
+    "section-ct section-ct section-ct section-ct"
+}
+
+.section-u{
+    grid-area: section-u;
+    background-color: $bg-principal;
+    height: 18.25rem;
+    width: 100%;
+}
+.section-d{
+    grid-area: section-d;
+    @extend .section-u;
+}
+.section-t{
+    grid-area: section-t;
+    @extend .section-d;
+    height: 28.25rem; 
+}
+.section-ct{
+    grid-area: section-ct;
+    background-color: $bg-principal;
+}
+
+.texto-tips{
+    display: block;
+    justify-content: center;
+    margin-top: 3.5rem;
+    margin-left: 1.875rem;
+    font-family: 'Roboto Condensed'
+}

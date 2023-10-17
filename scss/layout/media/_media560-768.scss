@@ -1,0 +1,218 @@
+@media(min-width: 560px) and (max-width: 768px){
+
+    /* -----------------------------SECCION INICIO */
+    .grids{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 185px;
+        height: 150px;
+    }
+    .section-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 20px;
+        margin-top: 5.475rem;
+    }
+    .section-3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 1.125rem;
+        margin-top: 20.125rem;
+    }
+    .section-4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 1.125rem;
+        flex-wrap: wrap;
+        margin-top: 20.125rem;
+    }
+    .section-5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 7.375rem;
+        gap: 1.125rem;
+        flex-wrap: wrap;
+        margin-top: 20.125rem;
+    }
+    .section-6{
+        margin-top: 13.5rem;
+        margin-left: 1.375rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    .section-8{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 5.375rem;
+        margin-left: 6rem;
+        background-color: #f4e7d4;
+    }
+    .terminos-vivero p{
+        color: #000000;
+    }
+    .iconos-redes{
+        display: flex;
+        margin-bottom: 1.9375rem;
+    }
+    .boton-masproductos{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-right: 4rem;
+    }
+    .texto-contacto{
+    font-size: 15px;
+    }
+    .div-productos{
+        margin-right: 9.375rem;
+        width: 44rem;
+    }
+    .class-compras{
+        margin-left: 3.125rem;
+        margin-right: 4rem;
+    }
+    .section-5 .card{
+        gap: 5.625rem;
+    }
+
+/* ---------------------------SECTION CONTACTO --------------------------*/
+        .body-myh{
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            margin-left: 11.875rem;
+        }
+        .header-nos{
+            justify-content: center;
+            background-color: #00000000;
+            height: 1.80rem;
+            width: 100%;
+    
+        }
+        
+        .header-nos a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        .asesoramiento-footer p{
+            font-size: .2375rem;
+            color: #ffffff;
+        }
+        .terminos-footer p{
+            font-size: 0.3375rem;
+            margin-right: 1.25rem;
+            align-self: flex-end;
+            color: #fffafa;
+        }
+        .form-uno{
+            margin-left: 1.25rem;
+            width: 100%;
+        
+        }
+        .form-dos{
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0);
+            width: 13.125rem;
+            gap: 1.0rem;
+            padding-top: 20px;
+            border: #f4e7d4;
+            margin-left: 1.5625rem;
+        }
+        .section-footer{
+            display: flex;
+            align-self: flex-end;
+            margin-top: 17rem;
+            background-color: #00000000;
+            height: 2.5rem;
+            width: 50rem
+        }
+        .boton-myh{
+            margin-left: 2.375rem;
+        }
+        .conteiner-sec{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .section-footer{
+            margin-right: 25rem;
+        }
+
+        /* -----------------------------------SECTION NOSOTROS */
+        .conteiner-tres{
+            margin-left: 1rem;
+        }
+        .ubi-dos{
+            margin-right: 5.125rem;
+        }
+        .boton-1{
+            margin-left: 1rem;
+        }
+        .asesoramiento-2 p{
+            font-size: .25rem;
+        }
+        .asesoramiento-2{
+            display: none;
+        }
+    
+
+    /* --------------------------------- SECTION PRODUCTOS */
+    .cate-gorias{
+    font-size: 1.9375rem;
+    }
+    .nav-productos ul li a{
+        font-size: .9rem;
+    }
+    .section-dos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 36rem;
+        gap: 0.5rem;
+    }
+    .section-tres{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 63rem;
+        gap: 0.5rem;
+        
+    }
+    .section-cuatro{
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 22rem;
+    }
+    .section-cinco{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 22rem;
+    }
+    .section-seis{
+        margin-top: 67rem;
+    }
+}

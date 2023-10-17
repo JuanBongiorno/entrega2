@@ -1,0 +1,50 @@
+
+
+.texto-asesoramiento{
+    text-align: center;
+    font-size: .8rem;
+    margin-left: 4rem;
+    margin-bottom: 1.25rem;
+
+}
+.section-seis{
+    background-color: #0a0a0a;
+    grid-area: section-seis;
+    height: 4.5rem;
+    display: flex;
+}
+
+.whats-app1{
+    align-self: flex-end;
+}
+
+.whats-app1 img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.insta-gram1{
+    align-self: flex-end;
+    
+}
+
+.insta-gram1 a img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 4rem;
+}
+
+.face-book1{
+    align-self: flex-end;
+}
+
+.face-book1 img{ 
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+    margin-left: 1.25rem;
+}

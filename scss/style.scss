@@ -1,9 +1,37 @@
-@import"./utilities/variables"
+
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+
+
+@import "./base/reset";
+@import "./base/typo";
 
 
 
 
+@import "./layout/header-index";
+@import "./layout/main-index";
+@import "./layout/footer-index";
+@import "./layout/body-index";
+@import "./layout/main-nosotros";
+@import "./layout/footer-nosotros";
+@import "./layout/main-productos";
+@import "./layout/footer-productos";
+@import "./layout/main-tips";
+@import "./layout/footer-tips";
+@import "./layout/header-tips";
+@import "./layout/main-contacto";
+@import "./layout/footer-contacto";
+@import "./layout/header-contacto";
+@import "./layout/body-contacto";
 
-@import"./base/reset"
+@import "./layout/media/media320-425";
+@import "./layout/media/media425-559";
+@import "./layout/media/media560-562";
+@import "./layout/media/media560-768";
+@import "./layout/media/media630-768";
+@import "./layout/media/media769-1023";
+@import "./layout/media/media1024";
 
-@import"./layout/media/header"

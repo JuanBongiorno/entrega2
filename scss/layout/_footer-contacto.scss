@@ -1,0 +1,37 @@
+.section-footer{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 35rem;
+    margin-top: 16rem;
+    background-color: $color-principal;
+    height: 5.5rem;
+}
+
+.iconos-contacto{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.asesoramiento-footer{
+    display: flex;
+    align-self: flex-end;
+}
+
+.asesoramiento-footer p{
+    color: $color-principal;
+    font-size: .4rem;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 3.125rem;
+    margin-bottom: .625rem;
+}
+
+.terminos-footer{
+    align-self: flex-end;
+    margin-left: 10.375rem;
+}
+
+.terminos-footer p{
+    color:$color-principal;
+    font-size: .625rem;
+}

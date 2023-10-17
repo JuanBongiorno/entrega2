@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    background-color: #f4e7d4;
+    width: auto;
+    box-sizing: border-box;
+}
+.justify-content-center{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+.logo{
+    width: 15rem;
+    margin-right: 20.375rem;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.foto-logo{
+    width: 15.625rem;
+    height: 15.5rem;
+    margin-right: 2.375rem;
+}
+
+.nav-bar{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+    gap: 1.125rem;
+    background-color: #f4e7d4;
+    }
+
+.nav-bar li a{
+    text-decoration: none;
+    font-size: 1.3125rem;
+    color:#000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+}
