@@ -9,13 +9,13 @@ header{
 	animation: wobble-hor-bottom 0.8s both;
 }
 
-@-webkit-keyframes wobble-hor-bottom {
+@-webkit-keyframes wobble-hor-bottom{
     0%,
     100% {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+            transform-origin: 50% 50%; 
     }
     15% {
     -webkit-transform: translateX(-30px) rotate(-6deg);
