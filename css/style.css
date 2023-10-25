@@ -1019,7 +1019,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 24rem;
+    margin-left: 26rem;
     margin-top: 40.475rem;
     gap: 3rem;
     width: 250px;
@@ -1035,7 +1035,7 @@ nav ul li a:hover {
     margin-left: 7.375rem;
     gap: 2.5rem;
     margin-top: 76.125rem;
-    margin-left: 24rem;
+    margin-left: 26rem;
     width: 250px;
     height: 250px;
   }
@@ -1043,7 +1043,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 24rem;
+    margin-left: 26rem;
     gap: 2.5rem;
     margin-top: 73.125rem;
     width: 250px;
@@ -1051,7 +1051,7 @@ nav ul li a:hover {
   }
   .section-6 {
     margin-top: 40rem;
-    margin-left: 1rem;
+    margin-left: 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1060,8 +1060,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30rem;
-    margin-top: 3.125rem;
+    margin-left: 32rem;
+    margin-top: 5.125rem;
   }
   .section-8 {
     display: flex;
