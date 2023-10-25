@@ -10,6 +10,9 @@
         width: 185px;
         height: 150px;
     }
+    .section-1{
+        margin-left: 15rem;
+    }
     .section-2{
         display: none;
     }
@@ -17,15 +20,15 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 15rem;
         gap: 1.125rem;
-        margin-top: 10.125rem;
+        margin-top: 34rem;
     }
     .section-4{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 15rem;
         gap: 1.125rem;
         flex-wrap: wrap;
         margin-top: 20.125rem;
@@ -34,14 +37,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 15rem;
         gap: 1.125rem;
         flex-wrap: wrap;
         margin-top: 20.125rem;
     }
     .section-6{
-        margin-top: 13.5rem;
-        margin-left: 1.375rem;
+        margin-top: 35rem;
+        margin-left: 0.1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,17 +53,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 1rem;
+        margin-left: 4rem;
+        gap: 0.3rem;
     }
     .section-8{
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-top: 5.375rem;
-        margin-left: 6rem;
+        margin-top: 3rem;
+        margin-left: 1rem;
         background-color: #f4e7d4;
     }
     .div-productos{
-        width: 48.5rem;
+        margin-right: 9.375rem;
+    }
+    .terminos-vivero p{
+        color: $color-principal;
     }
 }

@@ -1,4 +1,4 @@
-@media(min-width: 560px) and (max-width: 768px){
+@media(min-width: 562px) and (max-width: 768px){
 
     /* -----------------------------SECCION INICIO */
     .grids{
@@ -14,38 +14,42 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 20rem;
+        margin-right: 30rem;
         gap: 20px;
-        margin-top: 5.475rem;
+        margin-top: 35rem;
     }
     .section-3{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 20rem;
+        margin-right: 30rem;
         gap: 1.125rem;
-        margin-top: 20.125rem;
+        margin-top: 66rem;
     }
     .section-4{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 20rem;
+        margin-right: 30rem;
         gap: 1.125rem;
         flex-wrap: wrap;
-        margin-top: 20.125rem;
+        margin-top: 66rem;
     }
     .section-5{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7.375rem;
+        margin-left: 20rem;
+        margin-right: 30rem;
         gap: 1.125rem;
         flex-wrap: wrap;
-        margin-top: 20.125rem;
+        margin-top: 66rem;
     }
     .section-6{
-        margin-top: 13.5rem;
+        margin-top: 33rem;
         margin-left: 1.375rem;
         display: flex;
         justify-content: center;
@@ -55,7 +59,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 1rem;
+        margin-left: 5rem;
     }
     .section-8{
         display: flex;

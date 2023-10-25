@@ -5,13 +5,14 @@
         flex-direction: column;
 
     }
-    .card{
-        width: 185px;
-        height: 150px;
+    .card-3 img{
+        width: 13.625rem;
+        height: 13.625rem;
     }
+
     .section-1{
         display: flex;
-        margin-left: 19.375rem;
+        margin-left: 16.375rem;
     }
     .section-2{
         display: flex;
@@ -31,8 +32,8 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 7.375rem;
-        gap: 2.5rem;
-        margin-top: 50.125rem;
+        gap: 4rem;
+        margin-top: 78.125rem;
         margin-left: 25rem;
         width: 250px;
         height: 250px;
@@ -42,23 +43,24 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 25rem;
-        gap: 2.5rem;
-        margin-top: 70.125rem;
+        gap: 4.5rem;
+        margin-top: 80rem;
         width: 250px;
         height: 250px;
     }
     .section-6{
         margin-top: 40rem;
-        margin-left: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 12rem;
     }
     .section-7{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 30rem;
+        align-content: center;
+        margin-left: 32rem;
         margin-top: 3.125rem;
     }
     .section-8{
@@ -155,7 +157,7 @@
         display: flex;
         flex-direction: column;
         margin-right: 1.5rem;
-        margin-top: 37rem;
+        margin-top: 41rem;
     }
     .section-tres{
         display: flex;
@@ -175,9 +177,5 @@
     }
     .boton-comprasdos{
         margin-bottom: .1375rem;
-    }
-    .card-3 img{
-        width: 15.625rem;
-        height: 15.625rem;
     }
 }

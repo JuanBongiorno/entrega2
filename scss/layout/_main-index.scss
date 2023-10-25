@@ -16,7 +16,9 @@
     "section-8 section-8 section-8 section-8"
 
 }
-
+.dropdown-menu{
+    background-color: #f4e7d4;
+}
 .section-1{
     background-color:map-get($colores, fondo);
     grid-area: section-1;
