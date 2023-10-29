@@ -1,6 +1,5 @@
 .section-footer{
     display: flex;
-    align-self: flex-end;
     margin-left: 0.5rem;
     margin-top: 16rem;
     background-color: $color-principal;
@@ -18,7 +17,7 @@
 }
 
 .asesoramiento-footer p{
-    color: $color-principal;
+    color: $color-secundario;
     font-size: .4rem;
     font-weight: bold;
     padding-top: 10px;
@@ -32,6 +31,6 @@
 }
 
 .terminos-footer p{
-    color:$color-principal;
+    color:$color-secundario;
     font-size: .625rem;
 }
