@@ -47,10 +47,48 @@
     .boton-comprasdos a{
         font-size: 0.7rem;
     }
+    .div-productos{
+        width: 50rem;
+        margin-left: -27rem;
+    }
     .asesoramiento-2 p{
         font-size: .3rem;
     }
     .terminos-vivero1 p{
         font-size: 0.3rem;
+    }
+
+    /*---------------------------------- SECTION CONTACTOS ------------------------*/
+    .form-uno{
+        margin-left: 0.5rem;
+        width: 100%;
+        .form-dos{
+            margin-right: 1rem;
+        }
+    }
+    .boton-myh{
+        margin-left: 10.5rem;
+    }
+    .iconos-contactos .asesoramiento-footers{
+        margin-bottom: 1rem;
+        margin-top: 0.9rem;
+    }
+    .iconos-contactos .asesoramiento-footers p{
+        font-size: .3rem;
+        margin-bottom: .9375rem;
+    }
+    .iconos-contactos.terminos-footers {
+        margin-top: 0rem;
+    }
+    .iconos-contactos .terminos-footers p{
+        font-size: 0.3rem;
+    }
+    /*-------------------------- SECTION TIPS ----------------------------*/
+    .footer-doc4 .asesoramiento-1 p{
+    font-size: .25rem;
+    margin-top: 0rem;
+    }
+    .footer-doc4 .terminos-vivero{
+        font-size: .3125rem;
     }
 }

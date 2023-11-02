@@ -1,0 +1,57 @@
+.iconos-contactos{
+    display: flex;
+    margin-top: 6rem;
+    background-color: $color-secundario;
+    width: 100%;
+    height: 3.25rem;
+    
+    .asesoramiento-footers{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-left: 8rem;
+        margin-top: 1.3rem;
+    }
+    .asesoramiento-footers p{
+        color: $color-principal;
+        font-size: .425rem;
+        margin-bottom: 4rem;
+    }
+    .terminos-footers{
+        display: flex;
+        margin-left: 3rem;
+        margin-top: 1.3rem;
+    }
+    .terminos-footers p{
+        color: $color-principal;
+        font-size: .5rem;
+    }
+    .whatsapp-contactos{
+        align-self: flex-end;
+    }
+    .whatsapp-contactos img{
+        width: 2.125rem;
+        height: 2.125rem;
+        margin-left: 1.5625rem;
+        margin-bottom: 0.5rem;
+    }
+    .instagram-contactos{
+        align-self: flex-end;
+    }
+    .instagram-contactos img{
+        width: 2.125rem;
+        height: 2.125rem;
+        margin-left: 1.5625rem;
+        margin-bottom: 0.5rem;
+    }
+    .facebook-contactos{
+        align-self: flex-end;
+    }
+    .facebook-contactos img{
+        width: 2.125rem;
+        height: 2.125rem;
+        margin-left: 1.5625rem;
+        margin-bottom: 0.5rem;
+    }
+    
+}

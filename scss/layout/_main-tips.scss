@@ -1,47 +1,41 @@
-.grid-3{
-    width: 100%;
-    height: 40.875rem;
-    display: grid;
-    row-gap: 0.5rem;
-    padding-top: 5.875rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "section-u section-u section-u section-u"
-    "section-u section-u section-u section-u"
-    "section-d section-d section-d section-d"
-    "section-d section-d section-d section-d"
-    "section-d section-d section-d section-d"
-    "section-t section-t section-t  section-t"
-    "section-t section-t section-t section-t"
-    "section-ct section-ct section-ct section-ct"
-    "section-ct section-ct section-ct section-ct"
-}
-
-.section-u{
-    grid-area: section-u;
-    background-color: $bg-principal;
-    height: 18.25rem;
-    width: 100%;
-}
-.section-d{
-    grid-area: section-d;
-    @extend .section-u;
-}
-.section-t{
-    grid-area: section-t;
-    @extend .section-d;
-    height: 28.25rem; 
-}
-.section-ct{
-    grid-area: section-ct;
+.bd-example{
     background-color: $bg-principal;
 }
-
-.texto-tips{
-    display: block;
-    justify-content: center;
-    margin-top: 3.5rem;
-    margin-left: 1.875rem;
-    font-family: 'Roboto Condensed'
+.section-doc2{
+    margin-top: 4rem;
+    gap: .9375rem;
 }
+.section-doc3{
+    margin-top: 4rem;
+    .ubi-doc3{
+        margin-top: 3rem;
+        font-weight: bold;
+    }
+}
+
+.footer-doc4{
+    display: flex;
+    background-color: $color-principal;
+    height: 3rem;
+    margin-top: 5rem;
+    gap: .0313rem;
+
+    .asesoramiento-1 p{
+    color: $color-secundario;
+    }
+    .terminos-vivero p{
+        color: $color-secundario;
+        font-size: .45rem;
+    }
+    .whats-app{
+        margin-bottom: 0.5rem;
+    }
+    .face-book{
+        margin-bottom: 0.5rem;
+    }
+    .insta-gram{
+        margin-bottom: 0.5rem;
+    }
+    
+}
+

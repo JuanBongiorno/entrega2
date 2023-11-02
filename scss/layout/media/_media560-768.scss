@@ -14,7 +14,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 20rem;
+        margin-left: 14.5rem;
         margin-right: 30rem;
         gap: 20px;
         margin-top: 35rem;
@@ -23,7 +23,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 20rem;
+        margin-left: 14.5rem;
         margin-right: 30rem;
         gap: 1.125rem;
         margin-top: 66rem;
@@ -32,7 +32,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 20rem;
+        margin-left: 14.5rem;
         margin-right: 30rem;
         gap: 1.125rem;
         flex-wrap: wrap;
@@ -42,7 +42,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 20rem;
+        margin-left: 14.5rem;
         margin-right: 30rem;
         gap: 1.125rem;
         flex-wrap: wrap;
@@ -59,7 +59,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 5rem;
+        margin-left: rem;
     }
     .section-8{
         display: flex;
@@ -85,83 +85,39 @@
     .texto-contacto{
     font-size: 15px;
     }
-    .div-productos{
-        margin-right: 9.375rem;
-        width: 44rem;
-    }
     .class-compras{
-        margin-left: 3.125rem;
-        margin-right: 4rem;
+        margin-left: 4.5rem;
+        width: 30rem;
+    }
+    .div-productos{
+        margin-right: -10rem;
+        margin-left: -36rem;
+        width: 45rem;
     }
     .section-5 .card{
         gap: 5.625rem;
     }
 
 /* ---------------------------SECTION CONTACTO --------------------------*/
-        .body-myh{
-            height: auto;
-            align-items: center;
-            justify-content: center;
-            margin-left: 11.875rem;
-        }
-        .header-nos{
-            justify-content: center;
-            background-color: #00000000;
-            height: 1.80rem;
-            width: 100%;
-    
-        }
-        
-        .header-nos a{
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-        }
-        .asesoramiento-footer p{
-            font-size: .2375rem;
-            color: #ffffff;
-        }
-        .terminos-footer p{
-            font-size: 0.3375rem;
-            margin-right: 1.25rem;
-            align-self: flex-end;
-            color: #fffafa;
-        }
-        .form-uno{
-            margin-left: 1.25rem;
-            width: 100%;
-        
-        }
-        .form-dos{
-            display: flex;
-            flex-direction: column;
-            background-color: rgba(255, 255, 255, 0);
-            width: 13.125rem;
-            gap: 1.0rem;
-            padding-top: 20px;
-            border: #f4e7d4;
-            margin-left: 1.5625rem;
-        }
-        .section-footer{
-            display: flex;
-            align-self: flex-end;
-            margin-top: 17rem;
-            background-color: #00000000;
-            height: 2.5rem;
-            width: 50rem
-        }
-        .boton-myh{
-            margin-left: 2.375rem;
-        }
-        .conteiner-sec{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .section-footer{
-            margin-right: 25rem;
-        }
-
+.form-uno{
+    margin-left: 2rem;
+    margin-right: 0;
+    width: 100%;
+    .form-dos{
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+}
+.boton-myh{
+    margin-left: 11rem;
+}
+.iconos-contactos .asesoramiento-footers{
+    display: none;
+}    
+.iconos-contactos{
+    margin-left: 1rem;
+    width: 35rem;
+}
         /* -----------------------------------SECTION NOSOTROS */
         .conteiner-tres{
             margin-left: 1rem;
@@ -218,5 +174,14 @@
     }
     .section-seis{
         margin-top: 67rem;
+    }
+
+    /*------------------------------------- SECTION TIPS ----------------------*/
+    .asesoramiento-1{
+        display: none;
+    }
+    .footer-doc4{
+        width: 34rem;
+        margin-left: -0.35rem;
     }
 }

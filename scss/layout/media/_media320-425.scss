@@ -4,86 +4,104 @@
     .grids{
         display: flex;
         flex-direction: column;
+
+        .section-1{
+            display: flex;
+            margin-left: 14rem;
+        }
+        .section-2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 17rem;
+            margin-top: 40.475rem;
+            gap: 3rem;
+            width: 250px;
+            height: 250px;
+        }
+        .section-3{
+            display: none;
+        }
+        .section-4{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-top: 76.125rem;
+            margin-left: 17rem;
+            width: 250px;
+            height: 250px;
+        }
+        .section-5{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 17rem;
+            gap: 2.5rem;
+            margin-top: 73.125rem;
+            width: 250px;
+            height: 250px;
+        }
+        .section-6{
+            margin-top: 40rem;
+            margin-left: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section-7{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 23rem;
+            margin-top: 5.125rem;
+        }
+        .section-8{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 5.375rem;
+            margin-left: 6rem;
+            background-color: #f4e7d4;
+        }
     }
     .card-1:hover{
         transform: translate(-10px, -25px);
-    }
-    .section-1{
-        display: flex;
-        margin-left: 19.375rem;
-    }
-    .section-2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 26rem;
-        margin-top: 40.475rem;
-        gap: 3rem;
-        width: 250px;
-        height: 250px;
-    }
-    .section-3{
-        display: none;
-    }
-    .section-4{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 7.375rem;
-        gap: 2.5rem;
-        margin-top: 76.125rem;
-        margin-left: 26rem;
-        width: 250px;
-        height: 250px;
-    }
-    .section-5{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 26rem;
-        gap: 2.5rem;
-        margin-top: 73.125rem;
-        width: 250px;
-        height: 250px;
-    }
-    .section-6{
-        margin-top: 40rem;
-        margin-left: 15rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .section-7{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 32rem;
-        margin-top: 5.125rem;
-    }
-    .section-8{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        margin-top: 5.375rem;
-        margin-left: 6rem;
-        background-color: #f4e7d4;
     }
     .justify-content-center{
         margin-left: 9.375rem;
     }
     .conteiner-asesoramiento{
-        margin-left: 19rem;
+        margin-left: 13rem;
     }
     .texto-inicio{
         margin-left: 12rem;
         margin-top: 3.125rem;
     }
     .boton-masproductos{
-        margin-right: 12.375rem;
-        width: 18.5rem;
+        margin-right: 15rem;
+        width: 18em;
+    }
+    .div-productos{
+        margin-left: -23.5rem;
+        width: 45rem;
+    }
+    .terminos-vivero{
+        display: flex;
+        align-self: flex-end;
+        margin-left: 15rem;
     }
     .terminos-vivero p{
         color: #000000;
+        font-size: .7rem;
+        width: 17rem;
+        margin-left: -13rem;
+    }
+
+    .iconos-redes{
+        gap: 1rem;
+        margin-bottom: 3.5rem;
+        margin-left: 35rem;
     }
     
     /* ---------------------------SECTION NOSOTROS */
@@ -141,21 +159,81 @@
         margin-left: 1.1rem;
         margin-top: 75rem;
         }
-    .section-seis{
+        .section-seis{
         margin-top: 20rem;
         background-color: #f4e7d4;
     }
-    .section-cuatro{
+        .section-cuatro{
         display: none;
     }
-    .section-cinco{
+        .section-cinco{
         display: none;
     }
-    .asesoramiento-2{
+        .asesoramiento-2{
         display: none;
     }
     
-    .terminos-vivero1 p{
+        .terminos-vivero1 p{
         color: #000000;
     }  
+    
+    /*------------------------SECTION-CONTACTOS----------------*/
+    .form-uno{
+        margin-left: 0.5rem;
+        .form-dos{
+            margin-right: 1rem;
+        }
     }
+    .boton-myh{
+        margin-left: 20rem;
+    }
+    .iconos-contactos{
+        width: 30rem;
+    }
+    .iconos-contactos .asesoramiento-footers{
+        display: none;
+    }
+    .iconos-contactos .terminos-footers{
+        margin-left: 12rem;
+        margin-top: 0.5rem;
+    }
+    .iconos-contactos .terminos-footers p{
+        font-size: 0.5rem
+    }
+    
+    /*----------------- SECTION-TIPS -------------*/
+    .asesoramiento-1{
+        display: none;
+    }
+        .footer-doc4{
+            margin-right: 2rem;
+            background-color: $bg-principal;
+        }
+        .footer-doc4 .terminos-vivero p{
+            color: $color-principal;
+            margin-left: -5rem;
+        }
+        .footer-doc4{
+            gap: 5px;
+        }
+        .whats-app img{
+            margin-left: 1.5rem;
+        }
+        .insta-gram img{
+            margin-left: 0.1rem;
+        }
+        .face-book{
+            margin-left: -1.5rem;
+        }
+        .section-doc{
+            margin-top: 4rem;
+            margin-left: 7rem;
+        }
+        .section-doc2{
+            margin-left: 7rem;
+        }
+        .section-doc3{
+            margin-left: 7rem;
+        }
+    }
+    

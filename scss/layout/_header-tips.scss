@@ -1,7 +1,9 @@
 .header-conteiner{
     background-color: #f4e7d4;
-    display: block;
+    display: flex;
     height: 15rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo-1{

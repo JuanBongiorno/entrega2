@@ -1,4 +1,3 @@
-
 .form-uno{
     display: flex;
     justify-content: center;
@@ -6,38 +5,20 @@
     padding-top: 1.8625rem;
     margin-left: 40rem;
     width: 30rem;
-}
 
-.form-dos{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(255, 255, 255, 0);
-    width: 43.125rem;
-    gap: 1.0rem;
-    padding-top: 20px;
-    border: #f4e7d4;
-}
-
-.content-nav{
-    background-color: #000000;
-}
-
-.conteiner-sec{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 55rem;
-}
-
-.div-conteiner{
-    margin-top: 4.25rem;
-    margin-right: 65rem;
-}
-
-.imagen-sec{
-    width: 28.75rem;
-    height: 31.875rem;
+    .form-dos{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
+        gap: 1.0rem;
+        padding-top: 20px;
+        border: #f4e7d4;
+        .cuadro-texto{
+            border-radius: 1rem;
+            padding-left: 0.9375rem;
+        }
+    }
 }
 .boton-myh{
     padding-top: .9375rem;
@@ -45,7 +26,6 @@
     display: flex;
     justify-content: center;
 }
-
 .boton-init{
     width: 6.25rem;
     height: 3.125rem;
